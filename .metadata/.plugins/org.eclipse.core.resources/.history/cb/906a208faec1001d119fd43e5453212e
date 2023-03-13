@@ -1,0 +1,78 @@
+package it.epicode.be;
+
+import java.util.Arrays;
+
+public class Helloworld {
+
+public static void main (String[] args)
+		{
+		// Stampa a console  la frase
+		System.out.println("This is my first Epicode Java Project!");
+		
+		System.out.println(" \n My First Java Day Homeworks \n");
+		
+		System.out.println("\n Esercizio 2\n");
+		
+		int a = 10;
+		int b = 3;
+		int c= a*b;
+		System.out.println(a*b);
+		System.out.println(c);
+		
+		int d= 5;
+		String myString= "Ciao";
+		String myStringConc= d + myString;
+		System.out.println(d+myString);
+		System.out.println(myStringConc);
+		
+		
+		String[] arrayOfString = {"Hola", "Hello", "Hi", "Buongiorno", "Gutennmorgen"};
+		
+		
+		String[] newArrayOfString = new String[arrayOfString.length + 1];
+	
+		for (int i = 0, j = 0; i < newArrayOfString.length; i++) {
+		    if (i == 2) {
+		        newArrayOfString[i] = myString;
+		    } else {
+		        newArrayOfString[i] = arrayOfString[j];
+		        j++;
+		    }
+		}
+		System.out.println(Arrays.toString(newArrayOfString));
+		
+		
+		System.out.println("\n Esercizio 3 \n");
+		
+		
+		String user1 ="Ciao ";
+		String user1_2=" mi chiamo luca ";
+		String user1_3=" e sono nato a Desenzano del Garda ";
+		System.out.println(user1 + user1_2 + user1_3);
+		System.out.println(user1_3+ user1_2 + user1);
+		
+		
+		System.out.println("\n Esercizio 4 \n");
+		
+		double retA= 5.65;
+		double retB = 4.89;
+		double retC= retA + retB;
+		System.out.println("Il perimetro del rettangolo è " +  retC*2);
+		
+		int numPari= 9;
+		if (numPari% 2 ==0) {
+			System.out.println(0);
+		} else {System.out.println(1);}
+		
+		 double l1= 12.89;
+		 double l2= 10;
+		 double l3= 5.36;
+		 System.out.println("L'area del triangolo rettangolo è " + l1*l2/2);
+		
+		}
+
+
+}
+
+
+

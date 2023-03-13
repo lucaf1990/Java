@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+/**
+ * @author lucaforma
+ *
+ */
+class javaLezione_1 {
+	System.out.ptintln("ciao");
+	
+}
