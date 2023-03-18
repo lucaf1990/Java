@@ -2,8 +2,8 @@ package multimediaChallenge;
 
 public  class Audio extends MultimediaPlayer {
 
-	int volume;
-	int duration;
+	private int volume;
+	private int duration;
 	
 	public Audio(String media_title, int media_duration, int media_volume) {
 		super(media_title);
@@ -11,10 +11,9 @@ public  class Audio extends MultimediaPlayer {
 	    this.duration= media_duration;
 	}
 
-	public int getVolume() {
-		return volume;
+	public void getVolume() {
+		System.out.print("Your video volume is currently set at: "+ volume + "\n");
 	}
-	
 	
 	public void setVolumeUp() {
 		volume++; 
@@ -28,16 +27,12 @@ public  class Audio extends MultimediaPlayer {
 			System.out.println("Volume is set at minimun!");
 		}
 	}
+	
 	public int getDuration(){
 		return duration;
 	}
-
 	
 	public void Play() {
-		System.out.println(title + " ");
-		System.out.println(volume + " ");		
-		System.out.println(duration + " ");
-		System.out.println(" ");
 		
 		for (int i = 0; i<duration; i++) {
 			System.out.print(title );
@@ -45,9 +40,6 @@ public  class Audio extends MultimediaPlayer {
 			System.out.print("!");
 		} 
 			System.out.print("\n");
-		}
-				
+		}			
 	}
- 
-	
 }
