@@ -14,7 +14,7 @@ public class Main_MultimediaPlayer {
 			System.out.println(" Pick something to continue..." + "\n" +"Press 1 for Image" + "\n" + "Press 2 for Audio"+ "\n"+
 								"Press 3 for Video" +"\n");
 			
-			int userImput= scanner.nextInt();
+			 int userImput= scanner.nextInt();
 			scanner.nextLine();
 			
 			switch(userImput) {
