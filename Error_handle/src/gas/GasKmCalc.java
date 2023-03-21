@@ -7,21 +7,16 @@ public class GasKmCalc extends Exception {
 	public static void main(String[] args) {
 	    
 	   
-	    
-		
 		while(true) {
 			try {
 				calcolo("prova 1");
 				break;
 			} catch (Below_zero_Exception e) {
 				// TODO Auto-generated catch block
-				System.out.println("Qnt minima lt 1 litro ");
+				System.out.println("Qnt minima lt 1 litro - Riprova ");
+				System.out.println("\n");
 			}
 		}
-		
-		
-		
-
 	}
 	
 	    
