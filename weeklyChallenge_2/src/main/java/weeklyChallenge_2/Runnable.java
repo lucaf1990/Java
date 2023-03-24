@@ -94,6 +94,7 @@ public static void main(String[] Args) {
 	 myCatalogue.searchForYears(2021l);
 	 myCatalogue.searchForYears(1991l);
 	 
+	// ESERCIZIO CINQUE RICHIAMO LA FUNZIONE searchForYear PER ANDARE A CERCARE TRAMITE L'ANNO
 	 
 	 try {
 		Catalogue.writeFile(myCatalogue);
@@ -103,6 +104,15 @@ public static void main(String[] Args) {
 	}
 	 
 	 
+	 
+	// ESERCIZIO SEI RICHIAMO LA FUNZIONE searchForYear PER ANDARE A CERCARE TRAMITE L'ANNO
+	 
+	 try {
+		Catalogue.readFile(myCatalogue);
+	} catch (IOException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
 	 
 	 
 	 

@@ -4,6 +4,8 @@ import java.io.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
+import org.apache.commons.io.FileUtils;
+
 import lombok.AllArgsConstructor;
 import lombok.ToString;
 @AllArgsConstructor
@@ -63,15 +65,21 @@ public class Catalogue {
 	
 	public static void writeFile(Catalogue catalogue) throws IOException {
 		
-		File myCat= new File("myCat.txt");
-		FileWriter myFW= new FileWriter(myCat);
+		File myCatalogue= new File("Catalogo.txt");
+		FileWriter myFW= new FileWriter(myCatalogue);
 		PrintWriter myPW= new PrintWriter(myFW);
 		myPW.print(catalogue);
 		myPW.close();
 	}
 
 
-	
+	public static void readFile(Catalogue catalogue) throws IOException{
+		
+		File file1= new File("Catalogo.txt");
+		String readString= FileUtils.readFileToString(file1, "UTF-8");
+		System.out.println(readString);
+		
+	}
 	
 	
 }
