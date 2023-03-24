@@ -102,17 +102,48 @@ public class Shop {
 				.collect(Collectors.toList());
 
 		System.out.println("Baby orders:");
-		babyOrders.forEach(System.out::println);
+		babyOrders.forEach(x->System.out.println(x));
 		System.out.println("Customers with baby orders:");
 		babyCustomers.forEach(System.out::println);
 		
 		// 3 
 		
-		/*
-		 * List<product> boys = myproduct.stream() .filter(null)
-		 */
+	
+		 List<product> boys = myproduct.stream().filter(x->x.category.equals("Boys")).collect(Collectors.toList());;
+		 List<product> sale= myproduct.stream().filter(x->x.category.equals("Boys")).map(x->{
+			 x.getPrice();
+			 
+			 return x;
+			 
+			 
+			 
+		 }	 
+				 ).collect(Collectors.toList());
+		 System.out.println(boys.toString() + sale.toString());
+		 
+		 
 		
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
 
+		  
 	}
 
 }

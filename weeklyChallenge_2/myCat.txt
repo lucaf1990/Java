@@ -1,0 +1,73 @@
+Catalogue(myCatalogue=[
+
+Title: The Way I See ItAuthor: Jawaharlal Nehru
+Genre: Art
+Number of pages: 151
+Year of publishing: 2017
+ISBN Code: 10006, 
+
+Title: Your Best Day is Today!Author: H.G. Wells
+Genre: Motivational
+Number of pages: 423
+Year of publishing: 2004
+ISBN Code: 10007, 
+
+Title: Connecting, Communicating, ChangingAuthor: Michael Crichton
+Genre: Development
+Number of pages: 55
+Year of publishing: 2022
+ISBN Code: 10010, 
+
+Title: Automotive News
+Frequency of publishing: Weekly
+Number of pages: 61
+Year of publishing: 2002
+ISBN Code: 10011, 
+
+Title: Forbes
+Frequency of publishing: Biannul
+Number of pages: 41
+Year of publishing: 1984
+ISBN Code: 10012, 
+
+Title: Discovery Girls
+Frequency of publishing: Monthly
+Number of pages: 74
+Year of publishing: 2007
+ISBN Code: 10013, 
+
+Title: National Geographic
+Frequency of publishing: Weekly
+Number of pages: 76
+Year of publishing: 2001
+ISBN Code: 100014, 
+
+Title: Entertainment Weekly
+Frequency of publishing: Weekly
+Number of pages: 53
+Year of publishing: 1994
+ISBN Code: 10015, 
+
+Title: Smithsonian
+Frequency of publishing: Biannul
+Number of pages: 68
+Year of publishing: 1974
+ISBN Code: 10016, 
+
+Title: People
+Frequency of publishing: Weekly
+Number of pages: 83
+Year of publishing: 2001
+ISBN Code: 10017, 
+
+Title: Vouge
+Frequency of publishing: Weekly
+Number of pages: 101
+Year of publishing: 1991
+ISBN Code: 10018, 
+
+Title: Why
+Frequency of publishing: Weekly
+Number of pages: 105
+Year of publishing: 2021
+ISBN Code: 10019])
