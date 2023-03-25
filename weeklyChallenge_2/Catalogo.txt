@@ -1,18 +1,21 @@
 Catalogue(myCatalogue=[
 
-Title: The Way I See ItAuthor: Jawaharlal Nehru
+Title: The Way I See It
+Author: Jawaharlal Nehru
 Genre: Art
 Number of pages: 151
 Year of publishing: 2017
 ISBN Code: 10006, 
 
-Title: Your Best Day is Today!Author: H.G. Wells
+Title: Your Best Day is Today!
+Author: H.G. Wells
 Genre: Motivational
 Number of pages: 423
 Year of publishing: 2004
 ISBN Code: 10007, 
 
-Title: Connecting, Communicating, ChangingAuthor: Michael Crichton
+Title: Connecting, Communicating, Changing
+Author: Michael Crichton
 Genre: Development
 Number of pages: 55
 Year of publishing: 2022

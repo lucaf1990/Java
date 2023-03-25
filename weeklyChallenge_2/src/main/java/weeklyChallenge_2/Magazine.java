@@ -1,17 +1,14 @@
 package weeklyChallenge_2;
 
 
-import lombok.Getter;
-import lombok.ToString;
 
-@Getter
-@ToString
+
 
 public class Magazine extends Archive {
 	Enum<Magazine_enum_frequency> frequencyOfPublishing;
-public Magazine(Enum<Magazine_enum_frequency> frequencyOfPublishing,Long ISBNcode, String titolo, Long yearOfPublishing, int numberOfPages) {
+public Magazine(Enum<Magazine_enum_frequency> frequencyOfPublishing,Long ISBNcode, String titolo, int yearOfPublishing, int numberOfPages) {
 		super(ISBNcode, titolo, yearOfPublishing, numberOfPages);
-		this.frequencyOfPublishing=frequencyOfPublishing;
+			this.frequencyOfPublishing=frequencyOfPublishing;
 	}
 
 public String toString() {

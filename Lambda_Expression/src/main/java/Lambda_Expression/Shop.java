@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 import lombok.ToString;
 
 @ToString
-public class Shop {
+public abstract class Shop {
 
 	public static void main(String[] Args) {
 
