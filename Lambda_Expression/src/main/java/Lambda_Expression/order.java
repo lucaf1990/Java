@@ -1,6 +1,7 @@
 package Lambda_Expression;
 
 import java.time.LocalDate;
+import java.util.Collection;
 import java.util.List;
 
 import lombok.Getter;
@@ -25,6 +26,16 @@ public  class order {
 	this.deliveryDate= deliveryDate;
 	this.products=products;
 	this.customer=customer;
+	}
+
+	public Collection<product> getProducts() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getCustomer() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	

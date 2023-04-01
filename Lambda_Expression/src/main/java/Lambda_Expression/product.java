@@ -20,6 +20,11 @@ public class product {
 		this.price = price;
 	}
 
+	public Object getCategory() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	/*public String toString() {
 //System.out.print(this.category + "\n" + this.name + "\n" + this.id+ "\n" + this.price + "\n");
 		return (this.category + "\n" + this.name + "\n" + this.id+ "\n" + this.price + "\n");

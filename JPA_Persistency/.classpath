@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/lucaforma/Library/Mobile Documents/com~apple~CloudDocs/Documents/BackEnd Developer/JAVA/lombok.jar"/>
+	<classpathentry kind="lib" path="/Users/lucaforma/Downloads/apache-maven-3.9.1/boot/plexus-classworlds-2.6.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -94,34 +94,35 @@ public abstract class Shop {
 
 		// 2
 
-		List<order> babyOrders = myorders.stream()
-				.filter(mp -> mp.getProducts().stream().anyMatch(prodotto -> prodotto.getCategory().equals("Baby")))
-				.collect(Collectors.toList());
-
-		List<String> babyCustomers = babyOrders.stream().map(x -> x.getCustomer()).map(w -> w.name).distinct()
-				.collect(Collectors.toList());
-
-		System.out.println("Baby orders:");
-		babyOrders.forEach(x->System.out.println(x));
-		System.out.println("Customers with baby orders:");
-		babyCustomers.forEach(System.out::println);
+		/*
+		 * List<order> babyOrders = myorders.stream() .filter(mp ->
+		 * mp.getProducts().stream().anyMatch(prodotto ->
+		 * prodotto.getCategory().equals("Baby"))) .collect(Collectors.toList());
+		 * 
+		 * List<String> babyCustomers = babyOrders.stream().map(x ->
+		 * x.getCustomer()).map(w -> w.).distinct() .collect(Collectors.toList());
+		 * 
+		 * System.out.println("Baby orders:");
+		 * babyOrders.forEach(x->System.out.println(x));
+		 * System.out.println("Customers with baby orders:");
+		 * babyCustomers.forEach(System.out::println);
+		 */
 		
 		// 3 
 		
-	
+	/*
 		 List<product> boys = myproduct.stream().filter(x->x.category.equals("Boys")).collect(Collectors.toList());;
 		 List<product> sale= myproduct.stream().filter(x->x.category.equals("Boys")).map(x->{
 			 x.getPrice();
 			 
 			 return x;
+			 */
 			 
-			 
-			 
-		 }	 
-				 ).collect(Collectors.toList());
-		 System.out.println(boys.toString() + sale.toString());
-		 
-		 
+	/*
+	 * } ).collect(Collectors.toList()); System.out.println(boys.toString() +
+	 * sale.toString());
+	 * 
+	 */
 		
 		 
 		 

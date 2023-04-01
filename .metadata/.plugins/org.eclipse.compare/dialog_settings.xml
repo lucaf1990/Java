@@ -9,4 +9,10 @@
 		<item key="DIALOG_HEIGHT" value="695"/>
 		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
 	</section>
+	<section name="ResizableDialogBounds">
+		<item key="x" value="196"/>
+		<item key="y" value="25"/>
+		<item key="width" value="1548"/>
+		<item key="height" value="760"/>
+	</section>
 </section>
